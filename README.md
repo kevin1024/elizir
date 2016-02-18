@@ -1,19 +1,11 @@
 # Elizir
 
-**TODO: Add description**
+It's a slack chatbot, written in elixir, that will psychoanalyze you!  Based on [ELIZA](https://en.wikipedia.org/wiki/ELIZA).
 
-## Installation
+Just a crazy hack we made at [an OUDL meetup](https://hnl.io/events/169?n=Elixir%253A-Build-a-Slack-client-and-chat-server-(maybe))
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+Requires [lizbeth](https://www.npmjs.com/package/lizbeth) on your path.
 
-  1. Add elizir to your list of dependencies in `mix.exs`:
+I also had to hack up lizbeth a bit.  Replace session.js with the one in the js folder.
 
-        def deps do
-          [{:elizir, "~> 0.0.1"}]
-        end
 
-  2. Ensure elizir is started before your application:
-
-        def application do
-          [applications: [:elizir]]
-        end
